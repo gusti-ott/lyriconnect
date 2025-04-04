@@ -1,0 +1,24 @@
+# General
+.idea/
+*.iml
+*.swp
+
+# Flutter
+/frontend/build
+/frontend/.dart_tool
+/frontend/.packages
+/frontend/.flutter-plugins
+/frontend/.flutter-plugins-dependencies
+/frontendpubspec.lock
+
+# Shelf/General
+/backend/.dart_tool
+
+# Configs
+.env
+backend/config/config.*.yaml
+
+# Database
+*.db
+*.sqlite
+/db-data
