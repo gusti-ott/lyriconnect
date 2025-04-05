@@ -1,6 +1,10 @@
-# Files and directories created by pub.
+# Dart & build
 .dart_tool/
 .packages
-
-# Conventional directory for build output.
 build/
+
+# Lockfile
+pubspec.lock
+
+# Config files (keep your environment-specific YAMLs ignored)
+config/config.*.yaml
