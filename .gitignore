@@ -1,24 +1,12 @@
-# General
+# IDE / Editor configs
 .idea/
 *.iml
 *.swp
 
-# Flutter
-/frontend/build
-/frontend/.dart_tool
-/frontend/.packages
-/frontend/.flutter-plugins
-/frontend/.flutter-plugins-dependencies
-/frontendpubspec.lock
-
-# Shelf/General
-/backend/.dart_tool
-
-# Configs
+# Environment variables
 .env
-backend/config/config.*.yaml
 
-# Database
+# Local database/data (if used for development)
 *.db
 *.sqlite
-/db-data
+/db-data/
